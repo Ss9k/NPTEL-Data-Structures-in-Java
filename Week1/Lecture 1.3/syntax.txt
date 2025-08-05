@@ -1,7 +1,0 @@
-Syntax of generic class definition
-[<<Access] class <ClassName> <<Type1> [, <Type2>, ...]> {
-	...body of the class
-}
-
-full syntax for declaring a reference to a generic class and instance creation:
-<ClassName><TypeList> VarName  new <ClassName><typeList> (<InoutArray>);
