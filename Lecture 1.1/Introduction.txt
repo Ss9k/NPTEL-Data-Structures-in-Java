@@ -1,0 +1,8 @@
+Lecture 1.1 – Theory Only
+
+No Java code was introduced in this lecture.
+
+Topics:
+- Why Data Structures?
+- Types: Linear, Non-linear
+- Definition of Algorithm
