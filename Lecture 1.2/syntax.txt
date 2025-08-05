@@ -1,0 +1,14 @@
+Generic method: 
+A method can refer to any datatype is knows as a generic method
+Syntax:
+<access specifier> <return type> mName (<type list>) {
+    //Body of the method
+}
+
+Declaration of "varargs" method
+1. using an array
+	gMethod1(T[] t);
+2. using ellipsis(three dots)
+	gMethod2(T ... t);
+3. using object class
+	gMethod3(Object[] o);
