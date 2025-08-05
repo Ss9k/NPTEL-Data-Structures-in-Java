@@ -1,0 +1,24 @@
+When specifying a type parameter, you can create an upper bound that declares the super class from which all type arguments must be derived.
+• This is accomplished through the use of an extends clause when specifying
+the type parameter
+
+	<T extends Superclass>
+
+• This specifies that T can only be replaced by super class, or sub classes of super class. Thus, super class defines an inclusive, upper limit.
+
+WILDCARD IN GENERIC PROGRAMMING
+. The question mark symbol (?) is known as the wildcard in generic programming in Java.
+
+. Whenever you need to represent an unknown type, you can do that with ?.
+
+. Java generic's wildcard is a mechanism to cast a collection of a certain class.
+
+BOUNDED WILDCARD ARGUMENTS
+1. Upper Bounded wildcard
+<type> methodUBA(? extends A) {...}
+
+2. Lower Bounded arguments
+<type> methodLBA  (? super A) {...}
+
+3.Unbounded wildcard
+<type> methodNBA(?) {...}
